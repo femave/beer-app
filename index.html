@@ -11,16 +11,21 @@
 <body>
     <div class="container">
         <div class="row">
-            <div>
+            <div class="header">
                 <h1>My beers page</h1>
             </div>
-            <div class="col-md-6 col-md-offset-2">
+            <div class="forms col-md-8 col-md-offset-2">
                 <input id="inputBeer" type="text">
                 <button id="buttonBeer" class="btn-default">Enter beer</button>
-                <select class="list-beers" id="list-beers"></select>
+                <select class="list-beers hidden" id="list-beers"></select>
             </div>
-            <div id="beer" class="col-md-6 col-md-offset-2">
-            	
+            <div class="content col-md-8 col-md-offset-2">
+            	<div class="row">
+            		<div id="beerTitle" class="col-md-6"></div>
+            		<div class="beerImg col-md-6">
+            			<div id="beerImg" class="thumbnail hidden"></div>
+            		</div>
+            	</div>
             </div>
         </div>
     </div>
